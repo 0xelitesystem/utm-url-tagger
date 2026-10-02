@@ -12,13 +12,36 @@ Enter your website URL and campaign values for source, medium, campaign, and the
 
 Analytics tools treat `Email`, `email`, and `e-mail` as three different sources. Inconsistent UTM values fragment a single campaign across multiple rows and make reporting unreliable. Picking one convention and applying it every time is what keeps the data usable, which is what the normalize option enforces.
 
-## How to use it
+## Use
 
 Open `index.html` in any browser, or use the hosted GitHub Pages version. Fill the fields, optionally tap a quick-fill chip, and copy the result.
+
+## Why this exists
+
+UTM values get typed by hand across email, social and ad tools, so small differences in case and spelling split one campaign into several rows. This page builds the tagged URL the same way every time. It is one HTML file with no dependencies, no tracking and no network calls, released under MIT.
 
 ## Privacy
 
 Runs entirely in your browser. No tracking, no analytics, no network calls, no data stored.
+
+The Copy button writes the URL to your clipboard only when you click it.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/utm-campaign-builder
+cd utm-campaign-builder
+```
+
+Open `index.html` in any browser. Or serve the folder and visit http://localhost:8000:
+
+```
+python -m http.server 8000
+```
+
+## Build
+
+No build step. The whole tool is one `index.html` file with inline CSS and JavaScript.
 
 ## More
 
