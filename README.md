@@ -248,4 +248,4 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
 ## License
 
-MIT. Copyright 0xelitesystem 2026.
+MIT. Copyright RBL Industries LLC 2026.
