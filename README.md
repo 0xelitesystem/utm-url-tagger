@@ -1,8 +1,8 @@
-# UTM Campaign Builder
+# UTM URL Tagger
 
 A single-file browser tool that builds clean, consistent UTM-tagged campaign URLs for email, social, and ads, so your analytics stay readable.
 
-**Live demo:** https://0xelitesystem.github.io/utm-campaign-builder/
+**Live demo:** https://0xelitesystem.github.io/utm-url-tagger/
 
 ## What it does
 
@@ -29,8 +29,8 @@ The Copy button writes the URL to your clipboard only when you click it.
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/utm-campaign-builder
-cd utm-campaign-builder
+git clone https://github.com/0xelitesystem/utm-url-tagger
+cd utm-url-tagger
 ```
 
 Open `index.html` in any browser. Or serve the folder and visit http://localhost:8000:
